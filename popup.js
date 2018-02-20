@@ -8,8 +8,8 @@ function activate_filter() {
 
 if (active) {
   document.getElementById('toggle_filter').addEventListener('click', activate_filter);
-  document.getElementById('toggle_filter').innerHTML = "Deactivate Filter"
+  document.getElementById('toggle_filter').innerHTML = "Deactivate Filter";
 } else {
   document.getElementById('toggle_filter').addEventListener('click', activate_filter);
-  document.getElementById('toggle_filter').innerHTML = "Activate Filter"  
+  document.getElementById('toggle_filter').innerHTML = "Activate Filter"; 
 }
